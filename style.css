@@ -2,16 +2,29 @@
     position: relative;
     width: 98px;
     height: 98px;
-    background-color: red;
+   
     z-index: -1;
-    animation: colorTransition 1s infinite alternate;
+    
 }
-@keyframes colorTransition {
 
-    from{}
-    to{background-color: blue;}
-
+#p2{
+    position: relative;
+    width: 98px;
+    height: 98px;
+   
+    z-index: -1;
+    
 }
+
+#p3{
+    position: relative;
+    width: 98px;
+    height: 98px;
+   
+    z-index: -1;
+    
+}
+
 #p1Alt{
     position: relative;
     width: 98px;
@@ -61,10 +74,14 @@ height: 50px;
 position: absolute;
 text-align: center;
 }
+
 .redBtn{
 background-color: red;
 }
 .blackBtn{
 background-color: black;
 color: white;
+}
+.grayBtn{
+background-color: gray;
 }
